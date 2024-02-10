@@ -3,21 +3,12 @@
 const formulario = document.querySelector('#agregar-gasto');
 const gastoLista = document.querySelector('#gastos ul');
 
-
-
-
-
 //Eventos.
 eventListeners();
 function eventListeners() {
   document.addEventListener('DOMContentLoaded', preguntarPresupuesto)
   formulario.addEventListener('submit',agregarGasto)
 };
-
-
-
-
-
 
 //Clases.
 class Presupuesto {
